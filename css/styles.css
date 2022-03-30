@@ -1,0 +1,165 @@
+
+/* Title  section*/
+
+#title {
+  background-color: #c6ff48;
+}
+
+
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  color: grey;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+h3{
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 1.5rem;
+  font-weight:600;
+
+  padding-top: 0;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+.row{
+  padding-top: 100px;
+}
+
+.navbar-brand {
+
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+.btn{
+  margin-top: 40px;
+  margin-right: 20px;
+
+}
+.iphone6{
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Features section */
+
+#features{
+  padding: 7% 15%;
+  background-color: grey;
+  position: relative;
+
+}
+
+.feat-icons{
+  color: #5df93e;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.feat-icons:hover{
+  color: #9bf750;
+}
+.feat-prop{
+  color: #fce9e9;
+}
+
+/* Testimonials */
+
+#testimonials{
+  padding: 7% 15%;
+  background-color: #2deb7c;
+  text-align: center;
+}
+.testimonial-text{
+  color: #fff;
+  font-family: "Montserrat-bold",sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+width: 12%;
+border-radius: 100%;
+margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 5%;
+}
+
+/* press */
+
+#press{
+  background-color: #33e933;
+  text-align: center;
+
+  padding-bottom: 50px;
+}
+.press-image{
+  width: 15%;
+  padding: 2%;
+}
+
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+.pricing-column
+{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title{
+  text-align: center;
+}
+.iphone6{
+  position: static;
+  transform: rotate(0);
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+}
+
+
+/* cta */
+
+#cta{
+  text-align: center;
+  font-family: "Montserrat";
+  line-height: 1.5rem;
+  background-color: #5dec39;
+  padding: 10% 25%;
+
+}
+.cta-heading{
+  color: rgb(94, 89, 89);
+  font-size: 3.5rem;
+
+}
+
+/* footer */
+
+#footer{
+  background-color: #fff;
+  padding: 10% 40%;
+}
+.footer-icons{
+  margin: 13px;
+}
